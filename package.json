@@ -1,0 +1,13 @@
+{
+  "name": "commander-forge",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "pnpm run --parallel dev",
+    "build": "pnpm run --recursive build",
+    "lint": "pnpm run --recursive lint"
+  },
+  "devDependencies": {
+    "pnpm": "^8.15.0"
+  }
+}
